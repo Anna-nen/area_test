@@ -39,7 +39,7 @@ namespace lr3
                         Console.Write("Радиус R = ");
                         temp = Console.ReadLine();
                         Rad = Convert.ToDouble(temp);
-                        Console.WriteLine("Площадь круга = " + 4 * Math.Atan(1.0) * Math.Pow(Rad, 2.0));
+                        Console.WriteLine("Площадь круга = " + 4 * Math.PI * Math.Pow(Rad, 2.0));
                         break;
 
                     default: Console.WriteLine("Выбор неверен "); break;
